@@ -1,0 +1,11 @@
+Header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.table {
+  width: 30%;
+  display: flex;  
+  justify-content: space-between;
+  padding-left: 30px;
+}
