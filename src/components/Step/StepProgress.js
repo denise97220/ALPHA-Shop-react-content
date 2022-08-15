@@ -9,7 +9,7 @@ const StepProgress = () => {
         <span className='progress-group' data-phase='address'>
           <span className='progress-icon'>
             <span className='text'>1</span>
-            <img src={completeIcon} classNameName='App-logo' alt='logo' />
+            <img src={completeIcon} className='App-logo' alt='logo' />
           </span>
           <span className='progress-label'>寄送地址</span>
         </span>
@@ -17,7 +17,7 @@ const StepProgress = () => {
         <span className='progress-group' data-phase='shipping'>
           <span className='progress-icon'>
             <span className='text'>2</span>
-            <img src={completeIcon} classNameName='App-logo' alt='logo' />
+            <img src={completeIcon} className='App-logo' alt='logo' />
           </span>
           <span className='progress-label'>運送方式</span>
         </span>
@@ -25,7 +25,7 @@ const StepProgress = () => {
         <span className='progress-group' data-phase='credit-card'>
           <span className='progress-icon'>
             <span className='text'>3</span>
-            <img src={completeIcon} classNameName='App-logo' alt='logo' />
+            <img src={completeIcon} className='App-logo' alt='logo' />
           </span>
           <span className='progress-label'>付款資訊</span>
         </span>

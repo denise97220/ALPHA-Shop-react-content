@@ -3,10 +3,11 @@ import Cart from './components/Cart/Cart'
 import Footer from './components/Layout/Footer'
 import StepContainer from './components/Step/StepContainer'
 import styles from './App.module.css'
+import CartProvider from './store/CartProvider'
 
 function App() {
   return (
-    <div className='App'>
+    <CartProvider>
       <Header />
       <main>
         <div className={styles['form-container']}>
@@ -15,7 +16,7 @@ function App() {
         <Cart />
       </main>
       <Footer />
-    </div>
+    </CartProvider>
   )
 }
 
