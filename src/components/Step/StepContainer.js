@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import StepProgress from './StepProgress'
-import StepForm from './StepForm'
+import StepForm from './StepForm1'
 import ProgressControl from './ProgressControl'
 // import styles from './App.module.css'
 
@@ -15,10 +15,7 @@ const StepContainer = () => {
     <>
       <StepProgress />
       <StepForm nowForm={nowPage} />
-      <ProgressControl
-        nowForm={nowPage}
-        onClick={ClickHandler}
-      />
+      <ProgressControl nowForm={nowPage} onClick={ClickHandler} />
     </>
   )
 }
