@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const StepForm3 = ({ nowForm }) => {
+  const [name, setName] = useState('')
+  const [cardNumber, setCardNumber] = useState('')
+  const [date, setDate] = useState('')
+  const [cvcNumber, setCvcNumber] = useState('')
+
   const payment = (
     <form className='' data-phase='credit-card'>
       <h3 className='form-title'>付款資訊</h3>
